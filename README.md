@@ -1,5 +1,9 @@
-# Meaty-3
-A USB-Serial adapter with selectable RTS-CTS outputs and high power 3.3V regulator (Based on Sparkfun Beefy-3)
+# Meaty-3+
+Meaty-3+ is a micro USB connected Basic Breakout for the FTDI FT231XS USB to serial IC. It's a "springboard" from the Sparkfun "Beefy-3" USB-Serial board with some additional capabilities.
 
-Adapted and designed for projects needing more power (up to 1 Amp) using the FTDI 6-Pin signal layout.  Configurable RTS-CTS output allows automatic program reset for development boards using RTS (Arduino, Lilypad, etc) or CTS crossover (NodeMCU, ESP8266, ESP-01, Huzzah).
+The Meaty-3+ brings more power output, using a Torex Semiconductor 1 Amp XC6220B331MR-G linear 3.3V regulator. That's a whopping 66% power output increase (up to your USB power supply current limit - of course)! It also features on-board selectable CTS input or RTS output using a solder jumper.
+
+This board will auto-reset any Arduino board that has the (DTR) reset pin brought out to a 6-pin connector (Arduino, Lilypad, etc) - AND can be configured for auto-resetting boards that use the RTS signal, as well as auto-reset/auto-program ESP-8266 & EPS-32 based boards that use the NodeMCU style DTR/RTS transistor crossover reset circuit (NodeMCU, ESP8266, ESP-01, Huzzah). In other words, you have flexibility!
+
+This pluggable serial adapter, simplifies your application board when the power and cost expense of USB serial connectivity isn't always needed.
 
