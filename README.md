@@ -1,6 +1,8 @@
 # Meaty-3+
 Meaty-3+ is a micro USB connected Basic Breakout for the FTDI FT231XS USB to serial IC. It's a "springboard" from the Sparkfun "Beefy-3" USB-Serial board with some additional capabilities.
 
+Version 3 includes an improved micro-USB plug and updated documents.
+
 Boards are available from OSH Park:<a href="https://oshpark.com/shared_projects/OyBMIKnf"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
 ![](https://github.com/mdlougheed/Meaty-3/blob/master/Photos/20181228_105148.jpg)
 
